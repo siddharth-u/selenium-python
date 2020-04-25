@@ -22,17 +22,17 @@ def check_exists_by_xpath(xpath):
 driver.set_page_load_timeout(300)
 
 driver.get("https://gmail.com") #  opens gmail
-driver.find_element_by_name('identifier').send_keys("seleniumprojectsid")
+driver.find_element_by_name('identifier').send_keys("*********")
 driver.find_element_by_id('identifierNext').click()
 time.sleep(5)
-driver.find_element_by_name('password').send_keys("fdsajkl;")
+driver.find_element_by_name('password').send_keys("********")
 driver.find_element_by_id('passwordNext').click()
 
 time.sleep(5)
 
 driver.get("https://facebook.com") #  opens facebook
-driver.find_element_by_id('email').send_keys(9752506990)
-driver.find_element_by_name('pass').send_keys("fdsajkl;")
+driver.find_element_by_id('email').send_keys("************")
+driver.find_element_by_name('pass').send_keys("********")
 driver.find_element_by_id('loginbutton').click()
 
 time.sleep(5)
